@@ -1,1 +1,1 @@
-Preparing for a 48h run!
+Preparing for a 48h run! And then some!
