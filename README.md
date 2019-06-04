@@ -34,4 +34,3 @@ Run, test and enjoy!
 
 #### Small note
 The number checker is not returning a proper 400 when there is a param problem. It aLways returns a 200, unless that is intended.
-
