@@ -1,0 +1,10 @@
+{
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "server": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1"
+  }
+}

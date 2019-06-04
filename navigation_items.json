@@ -1,0 +1,64 @@
+{
+	"desktop": [
+		{
+			"category": "info",
+			"links": [
+				{
+					"title": "Rankings",
+					"slug": "/rankings"
+				},
+				{
+					"title": "Tournaments",
+					"slug": "/tournaments"
+				},
+				{
+					"title": "Game",
+					"slug": "/game"
+				}
+			]
+		},
+		{
+			"category": "Personal",
+			"links": [
+				{
+					"title": "Settings",
+					"slug": "/settings"
+				},
+				{
+					"title": "My scores",
+					"slug": "/my-scores"
+				},
+				{
+					"title": "Logout",
+					"slug": "/logout"
+				}
+			]
+		},
+		{
+			"category": "Need any help?",
+			"links": [
+				{
+					"title": "Contact us",
+					"slug": "/contact"
+				}
+			]
+		}
+	],
+	"mobile": [
+		{
+			"title": "Rankings",
+			"slug": "/rankings",
+			"iconClass": "rankings-icon"
+		},
+		{
+			"title": "Tournaments",
+			"slug": "/tournaments",
+			"iconClass": "tournaments-icon"
+		},
+		{
+			"title": "Settings",
+			"slug": "/settings",
+			"iconClass": "settings-icon"
+		}
+	]
+}
