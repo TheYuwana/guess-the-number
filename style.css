@@ -272,6 +272,7 @@ body{
 	.wrapper{
 		margin: 25px auto;
 		width: 1024px;
+		padding: 0px 15px;
 	}
 
 	.content{

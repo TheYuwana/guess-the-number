@@ -31,10 +31,11 @@ function refreshPage(){
 		mobileNavItems[i].setAttribute("class", "nav-item");
 	}
 
-	let activeMobileNavItem = document.body.querySelector("."+currentLocation+"-icon");
-	console.log("."+currentLocation+"-icon");
-	console.log(activeMobileNavItem);
-	activeMobileNavItem.parentElement.setAttribute("class", "nav-item nav-item-active");
+	let mobileLocations = ["rankings", "tournaments", "settings"];
+	if(mobileLocations.includes(currentLocation)){
+		let activeMobileNavItem = document.body.querySelector("."+currentLocation+"-icon");
+		activeMobileNavItem.parentElement.setAttribute("class", "nav-item nav-item-active");
+	}
 }
 
 function setFormActions(){
